@@ -56,7 +56,3 @@ product-analytics-dash/
 ├── screenshots/        # Dashboard preview images
 └── README.md
 ```
-
-## License
-
-MIT
