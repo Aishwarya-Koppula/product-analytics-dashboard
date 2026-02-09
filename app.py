@@ -11,6 +11,7 @@ import io
 
 # Initialize the Dash app with Bootstrap theme
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server  # Expose for deployment (Gunicorn/Render)
 app.title = "Product Analytics Dashboard"
 
 # Load default sample data
@@ -417,4 +418,4 @@ def update_engagement_chart(jsonified_data):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8050)
+    app.run_server(debug=True, host='0.0.0.0', port=8050)
