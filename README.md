@@ -4,6 +4,17 @@ An interactive product analytics dashboard built with **Python Dash** and **Plot
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue) ![Dash](https://img.shields.io/badge/Dash-2.14-green) ![Plotly](https://img.shields.io/badge/Plotly-5.18-purple)
 
+## Dashboard Preview
+
+### KPI Cards & Growth Trends
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+### Scenario Modeling
+![Scenario Modeling](screenshots/scenario-modeling.png)
+
+### Engagement Metrics
+![Engagement Metrics](screenshots/engagement-metrics.png)
+
 ## Features
 
 - **KPI Cards** — Monthly Active Users, Revenue, Churn Rate, Conversion Rate
@@ -28,10 +39,6 @@ python app.py
 
 Open [http://localhost:8050](http://localhost:8050) in your browser.
 
-## Live Demo
-
-🔗 [View Live Dashboard](https://product-analytics-dashboard.onrender.com)
-
 ## Tech Stack
 
 - **Dash** — Web framework for analytical applications
@@ -46,7 +53,7 @@ product-analytics-dash/
 ├── app.py              # Main dashboard application
 ├── sample_data.csv     # Sample product metrics data
 ├── requirements.txt    # Python dependencies
-├── render.yaml         # Render deployment config
+├── screenshots/        # Dashboard preview images
 └── README.md
 ```
 
